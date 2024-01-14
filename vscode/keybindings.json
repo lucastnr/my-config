@@ -50,5 +50,9 @@
   {
     "key": "ctrl+e",
     "command": "workbench.files.action.focusFilesExplorer"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "workbench.action.focusFirstEditorGroup"
   }
 ]
