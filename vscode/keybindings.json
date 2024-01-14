@@ -49,7 +49,7 @@
   },
   {
     "key": "ctrl+e",
-    "command": "workbench.files.action.focusFilesExplorer"
+    "command": "workbench.action.focusSideBar"
   },
   {
     "key": "ctrl+s",
