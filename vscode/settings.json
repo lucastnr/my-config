@@ -1,0 +1,117 @@
+{
+  "workbench.colorTheme": "Atom One Light",
+  "workbench.iconTheme": "symbols",
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+    "airtable",
+    "calendly",
+    "Calendy",
+    "eidl",
+    "firestore",
+    "gtag",
+    "helloskip",
+    "MAILCHIMP",
+    "precheck",
+    "roadtest",
+    "Sendgrid",
+    "tryghost",
+    "Wailist",
+    "Waitlist",
+    "Waitlisted"
+  ],
+  "vsicons.dontShowNewVersionMessage": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "git.confirmSync": false,
+  "redhat.telemetry.enabled": true,
+  "git.autofetch": true,
+  "tabnine.experimentalAutoImports": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.external.osxExec": "Warp.app",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.accessibilitySupport": "off",
+  "[mdx]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "nxConsole.showNodeVersionOnStartup": false,
+  "files.associations": {
+    "*.rules": "firerules"
+  },
+  "firestorerules.usePrettierFormatter": true,
+  "workbench.preferredHighContrastColorTheme": "Default Dark Modern",
+  "workbench.preferredDarkColorTheme": "One Dark Pro",
+  "workbench.preferredHighContrastLightColorTheme": "GitHub Light High Contrast",
+  "workbench.preferredLightColorTheme": "Atom One Light",
+  "window.autoDetectColorScheme": true,
+  "window.zoomLevel": 1,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.scrollbar.horizontal": "auto",
+  "editor.scrollbar.vertical": "auto",
+  "symbols.hidesExplorerArrows": false,
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "frame": false
+  },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".title-actions": {
+      "height": "12px !important",
+      "padding": "8px 0"
+    }
+  },
+  "apc.header": {
+    "height": 32
+  },
+  "apc.font.family": "Inter",
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "editor.fontSize": 13,
+  "breadcrumbs.filePath": "off",
+  "apc.statusBar": {
+    "position": "bottom"
+  },
+  "editor.cursorBlinking": "phase",
+  "editor.minimap.enabled": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env": ".env*",
+    ".env.local": ".env*",
+    "next.config.*": "next-env.d.ts",
+  }
+}
