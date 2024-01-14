@@ -46,5 +46,9 @@
     "key": "ctrl+pagedown",
     "command": "-scrollLineDown",
     "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.files.action.focusFilesExplorer"
   }
 ]
