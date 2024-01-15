@@ -19,6 +19,34 @@
   "[json]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.up1LineKeepCursor",
+      "sequence": [
+        {
+          "command": "editorScroll",
+          "args": {
+            "to": "up",
+            "by": "line"
+          }
+        },
+        "cursorUp"
+      ]
+    },
+    {
+      "command": "multiCommand.down1LineKeepCursor",
+      "sequence": [
+        {
+          "command": "editorScroll",
+          "args": {
+            "to": "down",
+            "by": "line"
+          }
+        },
+        "cursorDown"
+      ]
+    }
+  ],
   "cSpell.userWords": [
     "airtable",
     "calendly",
@@ -71,7 +99,7 @@
   "window.autoDetectColorScheme": true,
   "window.zoomLevel": 2,
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
     "markdown": false,
     "scminput": false
@@ -108,7 +136,7 @@
     "tailwind.config.*": "tailwind.config*, postcss.config*",
     ".env": ".env*",
     ".env.local": ".env*",
-    "next.config.*": "next-env.d.ts"
+    "next.config.*": "next-env.d.ts, vercel.json"
   },
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
