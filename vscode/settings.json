@@ -132,11 +132,14 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "tsconfig.json": "tsconfig.*.json",
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lock*",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lock*, .npmrc",
     "tailwind.config.*": "tailwind.config*, postcss.config*",
     ".env": ".env*",
     ".env.local": ".env*",
-    "next.config.*": "next-env.d.ts, vercel.json"
+    "next.config*": "next-env.d.ts, vercel.json, next-sitemap.config*",
+    "jest.config.*": "jest.preset.*",
+    "nx.json": "workspace.json, migrations.json",
+    ".eslintrc.*": ".prettier*"
   },
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
