@@ -1,18 +1,22 @@
 {
-  "workbench.colorTheme": "Atom One Light",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "symbols",
   "editor.tabSize": 2,
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "source.fixAll.eslint": true,
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "source.fixAll.eslint": true,
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "source.fixAll.eslint": true,
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "source.fixAll.eslint": true,
   },
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -85,7 +89,8 @@
   "security.workspace.trust.untrustedFiles": "open",
   "editor.accessibilitySupport": "off",
   "[mdx]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "source.fixAll.eslint": true,
   },
   "nxConsole.showNodeVersionOnStartup": false,
   "files.associations": {
