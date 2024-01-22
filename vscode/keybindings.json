@@ -63,5 +63,13 @@
   {
     "key": "ctrl+x",
     "command": "workbench.action.terminal.focus",
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.sourceAction",
+    "args": {
+      "kind": "source.addMissingImports",
+      "apply": "first"
+    }
   }
 ]
