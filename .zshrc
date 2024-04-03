@@ -98,10 +98,11 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 # Java Version
 export JAVA_HOME=$(/usr/libexec/java_home -v 11)
 
-export OPENAI_API_KEY="$(<.open_ai_key)"
+export OPENAI_API_KEY="$(<~/.open_ai_key)"
 
 alias r='source ~/.zshrc'
 alias vpr='gh pr create --base=staging --repo=yogov/skip-valhalla'
 alias apr='gh pr create --base=staging --repo=yogov/skip-asgard'
 alias p='pnpm'
 alias ag='alias | grep'
+alias n='npm'
