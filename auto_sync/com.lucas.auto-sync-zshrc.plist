@@ -17,7 +17,7 @@
         <key>StandardErrorPath</key>
         <string>/Users/lucas/tmp/com.lucas.sync-zshrc.stderr</string>
         <key>WorkingDirectory</key>
-        <string>/Users/lucas/code/zsh-backup</string>
+        <string>/Users/lucas/dev/my-config/auto_sync/</string>
         <key>KeepAlive</key>
         <true/>
      </dict>
