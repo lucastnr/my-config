@@ -10,7 +10,7 @@
         <array>
             <string>zsh</string>
             <string>-c</string>
-            <string>/Users/lucas/code/zsh-backup/sync_zshrc.sh</string>
+            <string>/Users/lucas/dev/my-config/auto_sync/sync_zshrc.sh</string>
         </array>
         <key>StandardOutPath</key>
         <string>/Users/lucas/tmp/com.lucas.sync-zshrc.stdout</string>
