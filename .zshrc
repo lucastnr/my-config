@@ -103,6 +103,7 @@ export OPENAI_API_KEY="$(<~/.open_ai_key)"
 alias r='source ~/.zshrc'
 alias vpr='gh pr create --base=staging --repo=yogov/skip-valhalla'
 alias apr='gh pr create --base=staging --repo=yogov/skip-asgard'
+alias capr='gh pr create --base=staging --repo=yogov/customer-app'
 alias p='pnpm'
 alias ag='alias | grep'
 alias n='npm'
