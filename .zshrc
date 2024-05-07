@@ -97,6 +97,9 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"
 export NODE_EXTRA_CA_KEY="$(mkcert -CAROOT)/rootCA-key.pem"
 
+# Used to create test accounts in the dev environment
+export NEXT_PUBLIC_DEV_EMAIL="lucastenorio@helloskip.com"
+
 # Java Version
 export JAVA_HOME=$(/usr/libexec/java_home -v 11)
 
