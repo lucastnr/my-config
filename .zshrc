@@ -112,3 +112,4 @@ alias p='pnpm'
 alias sal='alias | grep'
 alias n='npm'
 alias nr='npm run'
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
