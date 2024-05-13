@@ -101,7 +101,7 @@ export NODE_EXTRA_CA_KEY="$(mkcert -CAROOT)/rootCA-key.pem"
 export NEXT_PUBLIC_DEV_EMAIL="lucastenorio@helloskip.com"
 
 # Java Version
-export JAVA_HOME=$(/usr/libexec/java_home -v 11)
+export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 
 export OPENAI_API_KEY="$(<~/.open_ai_key)"
 
