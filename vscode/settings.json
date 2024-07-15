@@ -1,23 +1,6 @@
 {
-  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "symbols",
   "editor.tabSize": 2,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "source.fixAll.eslint": true,
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "source.fixAll.eslint": true,
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "source.fixAll.eslint": true,
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "source.fixAll.eslint": true,
-  },
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "[json]": {
@@ -55,15 +38,29 @@
     "airtable",
     "calendly",
     "Calendy",
+    "clsx",
     "eidl",
     "firestore",
+    "Fundings",
     "gtag",
     "helloskip",
+    "IIFE",
     "MAILCHIMP",
+    "nanostore",
+    "nanostores",
+    "onboarded",
+    "picsum",
     "precheck",
     "roadtest",
     "Sendgrid",
+    "shadcn",
+    "skipgrants",
+    "SUPABASE",
+    "tailwindcss",
     "tryghost",
+    "twirlo",
+    "Upsell",
+    "Upsert",
     "Wailist",
     "Waitlist",
     "Waitlisted"
@@ -94,22 +91,25 @@
   },
   "nxConsole.showNodeVersionOnStartup": false,
   "files.associations": {
-    "*.rules": "firerules"
+    "*.rules": "firerules",
+    ".env": "env",
+    ".env.local": "env"
   },
   "firestorerules.usePrettierFormatter": true,
   "workbench.preferredHighContrastColorTheme": "Default Dark Modern",
-  "workbench.preferredDarkColorTheme": "One Dark Pro",
+  "workbench.preferredDarkColorTheme": "Dark+ Pure Black (OLED)",
   "workbench.preferredHighContrastLightColorTheme": "GitHub Light High Contrast",
   "workbench.preferredLightColorTheme": "Atom One Light",
   "window.autoDetectColorScheme": true,
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
-    "markdown": false,
+    "markdown": true,
     "scminput": false
   },
   "editor.scrollbar.horizontal": "auto",
   "editor.scrollbar.vertical": "auto",
+  "editor.wordWrap": "on",
   "symbols.hidesExplorerArrows": false,
   "window.titleBarStyle": "native",
   "apc.electron": {
@@ -129,7 +129,6 @@
     "hideSettings": true
   },
   "apc.font.family": "Inter",
-  "breadcrumbs.enabled": false,
   "editor.fontSize": 13,
   "editor.cursorBlinking": "phase",
   "editor.minimap.enabled": false,
@@ -147,10 +146,48 @@
   },
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.activityBar.location": "hidden",
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "window.zoomLevel": 2
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "shakram02.bash-beautify"
+  },
+  "svelte.enable-ts-plugin": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[env]": {
+    "editor.defaultFormatter": "IronGeek.vscode-env"
+  },
+  "security.promptForLocalFileProtocolHandling": false,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "workbench.colorTheme": "Dark+ Pure Black (OLED)",
+  "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "tailwind-fold.autoFold": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "[hosts]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "window.zoomLevel": 2,
+  "workbench.activityBar.location": "hidden"
 }
