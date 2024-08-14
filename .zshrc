@@ -89,6 +89,7 @@ if [ -f '/Users/lucas/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/lucas/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lucas/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
+# System Variables
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
@@ -96,15 +97,16 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"
 export NODE_EXTRA_CA_KEY="$(mkcert -CAROOT)/rootCA-key.pem"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
-# Used to create test accounts in the dev environment
-export NEXT_PUBLIC_DEV_EMAIL="lucastenorio@helloskip.com"
+# Custom Variables
+export OPENAI_API_KEY="$(<~/.open_ai_key)"
+export NEXT_PUBLIC_DEV_EMAIL="lucastenorio@helloskip.com" # Used to create test accounts in the dev environment
 
 # Java Version
 export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 
-export OPENAI_API_KEY="$(<~/.open_ai_key)"
-
+# aliases
 alias r='source ~/.zshrc'
 alias vpr='gh pr create --base=staging --repo=yogov/skip-valhalla'
 alias apr='gh pr create --base=staging --repo=yogov/skip-asgard'
@@ -112,4 +114,3 @@ alias p='pnpm'
 alias sal='alias | grep'
 alias n='npm'
 alias nr='npm run'
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
