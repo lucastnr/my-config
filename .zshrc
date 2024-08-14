@@ -31,11 +31,6 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
 # COMPLETION_WAITING_DOTS="true"
 
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
 # This will show up for each command when running the 'history' command
 HIST_STAMPS="yyyy-mm-dd"
 
