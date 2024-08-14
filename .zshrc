@@ -102,9 +102,7 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 # Custom Variables
 export OPENAI_API_KEY="$(<~/.open_ai_key)"
 export NEXT_PUBLIC_DEV_EMAIL="lucastenorio@helloskip.com" # Used to create test accounts in the dev environment
-
-# Java Version
-export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+export JAVA_HOME=$(/usr/libexec/java_home -v 17) # Java Version
 
 # aliases
 alias r='source ~/.zshrc'
