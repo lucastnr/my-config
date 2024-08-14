@@ -45,6 +45,8 @@ PROMPT='%{$fg[cyan]%}%1d%{$reset_color%} $(firebase_project) $(git_prompt_info)%
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# The following lines will automaticlaly rum nvm use when a .nvmrc file is present
 autoload -U add-zsh-hook
 load-nvmrc() {
   local nvmrc_path
