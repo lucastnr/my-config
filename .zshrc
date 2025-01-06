@@ -89,7 +89,6 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17) # Java Version
 alias r='source ~/.zshrc'
 alias vpr='gh pr create --base=staging --repo=yogov/skip-valhalla'
 alias apr='gh pr create --base=staging --repo=yogov/skip-asgard'
-alias p='pnpm'
 alias search_alias='alias | grep'
 
 # The next line updates PATH for the Google Cloud SDK.
