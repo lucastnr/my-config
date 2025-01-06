@@ -91,6 +91,7 @@ alias vpr='gh pr create --base=staging --repo=yogov/skip-valhalla'
 alias apr='gh pr create --base=staging --repo=yogov/skip-asgard'
 alias p='pnpm'
 alias search_alias='alias | grep'
+alias python='python3.8'
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/lucas/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/lucas/Downloads/google-cloud-sdk/path.zsh.inc'; fi
