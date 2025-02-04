@@ -84,7 +84,8 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"
 export NODE_EXTRA_CA_KEY="$(mkcert -CAROOT)/rootCA-key.pem"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-export PATH="$PATH:/Applications/WebStorm.app/Contents/MacOS"
+
+webstorm() { /Applications/WebStorm.app/Contents/MacOS/webstorm $* &> /dev/null &| }
 
 # Custom Variables
 # export OPENAI_API_KEY="$(<~/.open_ai_key)"
