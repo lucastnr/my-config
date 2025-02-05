@@ -94,6 +94,7 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17) # Java Version
 
 # aliases
 alias r='source ~/.zshrc'
+alias p='pnpm'
 alias vpr='gh pr create --base=staging --repo=yogov/skip-valhalla'
 alias apr='gh pr create --base=staging --repo=yogov/skip-asgard'
 alias search_alias='alias | grep'
