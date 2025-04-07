@@ -1,0 +1,57 @@
+{
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
+  "base_keymap": "VSCode",
+  "theme": "One Black",
+  "experimental.theme_overrides": {
+    "editor.background": "#000",
+    "syntax": {
+      "comment": {
+        "color": "#878e98"
+      }
+    }
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  "soft_wrap": "editor_width",
+  "ui_font_size": 20,
+  "buffer_font_size": 16,
+  "languages": {
+    "TypeScript": {
+      "formatter": "auto",
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    },
+    "TSX": {
+      "formatter": "auto",
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    }
+  },
+  "lsp": {
+    "tailwindcss-language-server": {
+      "settings": {
+        "experimental": {
+          "classRegex": [
+            ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+            ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+          ]
+        }
+      }
+    }
+  }
+}
