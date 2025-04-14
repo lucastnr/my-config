@@ -25,18 +25,19 @@
   "git_panel": {
     "dock": "right"
   },
+  "auto_update": true,
   "soft_wrap": "editor_width",
   "ui_font_size": 20,
   "buffer_font_size": 16,
+  "format_on_save": "on",
+  "formatter": "prettier",
   "languages": {
     "TypeScript": {
-      "formatter": "auto",
       "code_actions_on_format": {
         "source.organizeImports": true
       }
     },
     "TSX": {
-      "formatter": "auto",
       "code_actions_on_format": {
         "source.organizeImports": true
       }
