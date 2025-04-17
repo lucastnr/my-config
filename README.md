@@ -131,3 +131,5 @@ This repository is for personal use and is not licensed for public distribution.
 - Logs for the `launchd` services can be found in the `~/tmp` directory:
   - `com.lucas.sync-zed.stdout` and `com.lucas.sync-zed.stderr`
   - `com.lucas.sync-zshrc.stdout` and `com.lucas.sync-zshrc.stderr`
+- If you do have sensitive information in your configuration files, ensure to exclude them from the repository or use a secure method to handle them.
+  - e.g. create a .secrets.sh file and run `source .secrets.sh` in your .zshrc file.
