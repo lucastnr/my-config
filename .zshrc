@@ -37,6 +37,7 @@ HIST_STAMPS="yyyy-mm-dd"
 plugins=(git firebase zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.secrets.sh
 
 FIREBASE_ZSH_ICON=true
 PROMPT='%{$fg[cyan]%}%1d%{$reset_color%} $(firebase_project) $(git_prompt_info)%(!.#.~) '
