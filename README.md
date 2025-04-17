@@ -1,0 +1,158 @@
+# My Configurations Repository
+
+This repository contains my personal configuration files and scripts for automating the synchronization of my development environment settings. It includes configurations for Zsh, Zed, and VS Code, as well as scripts to keep these configurations in sync with a Git repository.
+
+It uses https://github.com/imbaggaarm/zshrc-auto-sync as a reference for the Zsh configuration and adds automation for Zed configurations. The repository is designed to be used on macOS, leveraging `launchd` services for background synchronization.
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Setup](#setup)
+- [Directory Structure](#directory-structure)
+- [Details](#details)
+  - [Zsh Configuration](#zsh-configuration)
+  - [Zed Configuration](#zed-configuration)
+  - [VS Code Configuration](#vs-code-configuration)
+- [Automation Scripts](#automation-scripts)
+- [License](#license)
+
+---
+
+## Overview
+
+This repository is designed to streamline the management of my development environment by automating the synchronization of configuration files. It uses macOS `launchd` services to monitor changes in configuration files and automatically commit and push updates to a Git repository.
+
+---
+
+## Features
+
+- **Zsh Configuration**: Custom `.zshrc` file with aliases, plugins, and environment variables.
+- **Zed Configuration**: Keybindings and settings for the Zed editor.
+- **VS Code Configuration**: Keybindings and settings for Visual Studio Code.
+- **Automation**: Scripts to monitor changes in configuration files and sync them to a Git repository.
+- **macOS Launch Agents**: Automatically run synchronization scripts in the background.
+
+---
+
+## Setup
+
+1. Clone this repository:
+
+   ```bash
+   git clone <repository-url>
+   cd my-config
+   ```
+
+2. Make the setup script executable:
+
+   ```bash
+   chmod +x ./auto_sync/setup_services.sh
+   ```
+
+3. Run the setup script to configure and start the macOS `launchd` services:
+
+   ```bash
+   ./auto_sync/setup_services.sh
+   ```
+
+4. Ensure you have the required dependencies installed:
+   - [fswatch](https://github.com/emcrisostomo/fswatch): Used to monitor file changes.
+   - A working installation of `zsh`.
+
+---
+
+## Directory Structure
+
+```
+my-config/
+├── auto_sync/
+│   ├── com.lucas.auto-sync-zed.plist       # LaunchAgent for Zed sync
+│   ├── com.lucas.auto-sync-zshrc.plist     # LaunchAgent for Zsh sync
+│   ├── setup_services.sh                   # Script to set up services
+│   ├── sync_zed.sh                         # Script to monitor Zed config changes
+│   ├── sync_zshrc.sh                       # Script to monitor Zsh config changes
+│   ├── zed_commit_changes.sh               # Script to commit Zed config changes
+│   ├── zsh_commit_changes.sh               # Script to commit Zsh config changes
+├── zed/
+│   ├── keymap.json                         # Zed keybindings
+│   ├── settings.json                       # Zed settings
+├── vscode/
+│   ├── keybindings.json                    # VS Code keybindings
+│   ├── settings.json                       # VS Code settings
+├── .zshrc                                  # Zsh configuration file
+```
+
+---
+
+## Details
+
+### Zsh Configuration
+
+The `.zshrc` file includes:
+
+- Plugins: `git`, `firebase`, `zsh-autosuggestions`, `zsh-syntax-highlighting`.
+- Aliases for common commands.
+- Environment variables for tools like `nvm`, `pyenv`, and Android SDK.
+- Custom prompt and theme settings.
+
+### Zed Configuration
+
+The `zed` directory contains:
+
+- `keymap.json`: Custom keybindings for the Zed editor.
+- `settings.json`: Editor settings, including themes, formatting options, and LSP configurations.
+
+### VS Code Configuration
+
+The `vscode` directory contains:
+
+- `keybindings.json`: Custom keybindings for Visual Studio Code.
+- `settings.json`: Editor settings, including formatter preferences, extensions, and UI customizations.
+
+---
+
+## Automation Scripts
+
+### `setup_services.sh`
+
+This script:
+
+- Makes all necessary scripts executable.
+- Copies the `plist` files to `~/Library/LaunchAgents`.
+- Loads the `launchd` services to start monitoring file changes.
+
+### `sync_zed.sh` and `sync_zshrc.sh`
+
+These scripts:
+
+- Use `fswatch` to monitor changes in Zed and Zsh configuration files, respectively.
+- Trigger the corresponding commit scripts when changes are detected.
+
+### `zed_commit_changes.sh` and `zsh_commit_changes.sh`
+
+These scripts:
+
+- Copy the updated configuration files to the repository.
+- Commit and push the changes to the Git repository.
+
+---
+
+## License
+
+This repository is for personal use and is not licensed for public distribution. Feel free to adapt it for your own use, but please ensure you understand the scripts and configurations before using them.
+
+---
+
+## Notes
+
+- Ensure you have write access to the Git repository where changes will be pushed.
+- The `fswatch` tool is required for monitoring file changes. Install it via Homebrew:
+  ```bash
+  brew install fswatch
+  ```
+- Logs for the `launchd` services can be found in the `~/tmp` directory:
+  - `com.lucas.sync-zed.stdout` and `com.lucas.sync-zed.stderr`
+  - `com.lucas.sync-zshrc.stdout` and `com.lucas.sync-zshrc.stderr`
