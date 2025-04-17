@@ -12,7 +12,6 @@ It uses https://github.com/imbaggaarm/zshrc-auto-sync as a reference for the Zsh
 - [Features](#features)
 - [Requirements](#requirements)
 - [Setup](#setup)
-- [Directory Structure](#directory-structure)
 - [Automation Scripts](#automation-scripts)
 - [License](#license)
 
@@ -63,29 +62,6 @@ Ensure you have the following:
    ```bash
    ./auto_sync/setup_services.sh
    ```
-
----
-
-## Directory Structure
-
-```
-my-config/
-├── auto_sync/
-│   ├── com.lucas.auto-sync-zed.plist       # LaunchAgent for Zed sync
-│   ├── com.lucas.auto-sync-zshrc.plist     # LaunchAgent for Zsh sync
-│   ├── setup_services.sh                   # Script to set up services
-│   ├── sync_zed.sh                         # Script to monitor Zed config changes
-│   ├── sync_zshrc.sh                       # Script to monitor Zsh config changes
-│   ├── zed_commit_changes.sh               # Script to commit Zed config changes
-│   ├── zsh_commit_changes.sh               # Script to commit Zsh config changes
-├── zed/
-│   ├── keymap.json                         # Zed keybindings
-│   ├── settings.json                       # Zed settings
-├── vscode/
-│   ├── keybindings.json                    # VS Code keybindings
-│   ├── settings.json                       # VS Code settings
-├── .zshrc                                  # Zsh configuration file
-```
 
 ---
 
