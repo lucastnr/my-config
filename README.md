@@ -75,14 +75,14 @@ This script:
 - Copies the `plist` files to `~/Library/LaunchAgents`.
 - Loads the `launchd` services to start monitoring file changes.
 
-### `sync_zed.sh` and `sync_zshrc.sh`
+### `sync_zed.sh`, `sync_zshrc.sh`, and `sync_vscode.sh`
 
 These scripts:
 
-- Use `fswatch` to monitor changes in Zed and Zsh configuration files, respectively.
+- Use `fswatch` to monitor changes in configuration files.
 - Trigger the corresponding commit scripts when changes are detected.
 
-### `zed_commit_changes.sh` and `zsh_commit_changes.sh`
+### `zed_commit_changes.sh`, `zsh_commit_changes.sh`, and `vscode_commit_changes.sh`
 
 These scripts:
 
