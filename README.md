@@ -10,12 +10,9 @@ It uses https://github.com/imbaggaarm/zshrc-auto-sync as a reference for the Zsh
 
 - [Overview](#overview)
 - [Features](#features)
+- [Requirements](#requirements)
 - [Setup](#setup)
 - [Directory Structure](#directory-structure)
-- [Details](#details)
-  - [Zsh Configuration](#zsh-configuration)
-  - [Zed Configuration](#zed-configuration)
-  - [VS Code Configuration](#vs-code-configuration)
 - [Automation Scripts](#automation-scripts)
 - [License](#license)
 
@@ -37,12 +34,19 @@ This repository is designed to streamline the management of my development envir
 
 ---
 
+## Requirements
+
+Ensure you have the following:
+
+- [fswatch](https://github.com/emcrisostomo/fswatch): Used to monitor file changes.
+- A working installation of `zsh`.
+
 ## Setup
 
 1. Clone this repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/lucastnr/my-config.git
    cd my-config
    ```
 
@@ -57,10 +61,6 @@ This repository is designed to streamline the management of my development envir
    ```bash
    ./auto_sync/setup_services.sh
    ```
-
-4. Ensure you have the required dependencies installed:
-   - [fswatch](https://github.com/emcrisostomo/fswatch): Used to monitor file changes.
-   - A working installation of `zsh`.
 
 ---
 
@@ -84,33 +84,6 @@ my-config/
 │   ├── settings.json                       # VS Code settings
 ├── .zshrc                                  # Zsh configuration file
 ```
-
----
-
-## Details
-
-### Zsh Configuration
-
-The `.zshrc` file includes:
-
-- Plugins: `git`, `firebase`, `zsh-autosuggestions`, `zsh-syntax-highlighting`.
-- Aliases for common commands.
-- Environment variables for tools like `nvm`, `pyenv`, and Android SDK.
-- Custom prompt and theme settings.
-
-### Zed Configuration
-
-The `zed` directory contains:
-
-- `keymap.json`: Custom keybindings for the Zed editor.
-- `settings.json`: Editor settings, including themes, formatting options, and LSP configurations.
-
-### VS Code Configuration
-
-The `vscode` directory contains:
-
-- `keybindings.json`: Custom keybindings for Visual Studio Code.
-- `settings.json`: Editor settings, including formatter preferences, extensions, and UI customizations.
 
 ---
 
