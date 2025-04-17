@@ -5,6 +5,7 @@
       "shift-alt-f": "editor::Format"
     }
   },
+
   {
     "bindings": {
       "cmd-shift-g": "git_panel::ToggleFocus",
