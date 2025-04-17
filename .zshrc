@@ -68,6 +68,13 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+# nvm end
+
+# python
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
+# python end
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/usr/local/lib/google-cloud-sdk/path.zsh.inc' ]; then . '/usr/local/lib/google-cloud-sdk/path.zsh.inc'; fi
@@ -96,6 +103,15 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17) # Java Version
 alias r='source ~/.zshrc'
 alias vpr='gh pr create --base=staging --repo=yogov/skip-valhalla'
 alias search_alias='alias | grep'
+alias p='pnpm'
 alias gcpp='gcloud config configurations activate skip-prod'
 alias gcps='gcloud config configurations activate skip-stg'
 alias valhalla='cd /Users/lucas/dev/skip-valhalla'
+
+# pnpm
+export PNPM_HOME="/Users/lucas/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
