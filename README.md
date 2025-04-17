@@ -41,6 +41,8 @@ Ensure you have the following:
 - [fswatch](https://github.com/emcrisostomo/fswatch): Used to monitor file changes.
 - A working installation of `zsh`.
 
+---
+
 ## Setup
 
 1. Clone this repository:
