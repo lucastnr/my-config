@@ -20,6 +20,12 @@
     }
   },
   {
+    "context": "Pane",
+    "bindings": {
+      "cmd-ctrl-g": "search::SelectPreviousMatch"
+    }
+  },
+  {
     "context": "Editor && (extension==js || extension==jsx || extension==ts || extension==tsx)",
     "bindings": {
       "alt-d": [
