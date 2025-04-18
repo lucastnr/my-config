@@ -2,7 +2,7 @@
 
 This repository contains my personal configuration files and scripts for automating the synchronization of my development environment settings. It includes configurations for Zsh, Zed, and VS Code, as well as scripts to keep these configurations in sync with a Git repository.
 
-It uses https://github.com/imbaggaarm/zshrc-auto-sync as a reference for the Zsh configuration and adds automation for Zed configurations. The repository is designed to be used on macOS, leveraging `launchd` services for background synchronization.
+It uses https://github.com/imbaggaarm/zshrc-auto-sync as a reference for the Zsh configuration and adds automation for Zed and VS Code configurations. The repository is designed to be used on macOS, leveraging `launchd` services for background synchronization.
 
 ---
 
