@@ -18,5 +18,15 @@
         }
       ]
     }
+  },
+  {
+    "context": "Editor && (extension==ts || extension==js)",
+    "bindings": {
+      "alt-d": [
+        "workspace::SendKeystrokes",
+        "/** enter enter space */ up space * space"
+      ],
+      "alt-l": ["workspace::SendKeystrokes", "enter * space"]
+    }
   }
 ]
