@@ -20,7 +20,7 @@
     }
   },
   {
-    "context": "Editor && (extension==ts || extension==js)",
+    "context": "Editor && (extension==js || extension==jsx || extension==ts || extension==tsx)",
     "bindings": {
       "alt-d": [
         "workspace::SendKeystrokes",
