@@ -106,11 +106,4 @@ alias p='pnpm'
 alias gcpp='gcloud config configurations activate skip-prod'
 alias gcps='gcloud config configurations activate skip-stg'
 alias valhalla='cd /Users/lucas/dev/skip-valhalla'
-
-# pnpm
-export PNPM_HOME="/Users/lucas/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
+alias dev='cd /Users/lucas/dev'
