@@ -67,6 +67,8 @@
     "**/.DS_Store",
     "**/Thumbs.db",
     "**/.classpath",
-    "**/.settings"
-  ]
+    "**/.settings",
+    "**/node_modules"
+  ],
+  "file_scan_inclusions": ["**/"]
 }
