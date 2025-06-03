@@ -2,7 +2,8 @@
   {
     "context": "Editor",
     "bindings": {
-      "shift-alt-f": "editor::Format"
+      "shift-alt-f": "editor::Format",
+      "alt-space": "copilot::Suggest"
     }
   },
   {
