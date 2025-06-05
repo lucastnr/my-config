@@ -10,8 +10,8 @@
     },
     "default_profile": "ask",
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4.1"
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-thinking"
     },
     "version": "2"
   },
