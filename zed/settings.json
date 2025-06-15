@@ -19,7 +19,7 @@
     "edit_prediction_provider": "copilot"
   },
   "base_keymap": "VSCode",
-  "theme": "One Black",
+  "theme": "Ayu Light",
   "experimental.theme_overrides": {
     "editor.background": "#00000",
     "syntax": {
