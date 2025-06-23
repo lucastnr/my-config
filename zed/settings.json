@@ -65,6 +65,16 @@
           ]
         }
       }
+    },
+    "eslint": {
+      "settings": {
+        "workingDirectories": [
+          {
+            "mode": "autoDetectFromPackageJson",
+            "directory": "."
+          }
+        ]
+      }
     }
   },
   "file_scan_inclusions": [".env*"]
