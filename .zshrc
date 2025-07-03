@@ -76,7 +76,7 @@ alias search_alias='alias | grep'
 alias p='pnpm'
 alias gcpp='gcloud config configurations activate skip-prod'
 alias gcps='gcloud config configurations activate skip-stg'
-alias ghpr='gh pr create --web --assign @me'
+alias ghpr='gh pr create --web --assignee @me'
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
