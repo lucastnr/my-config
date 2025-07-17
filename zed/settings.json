@@ -65,6 +65,16 @@
           ]
         }
       }
+    },
+    "eslint": {
+      "settings": {
+        "format": {
+          "enable": true
+        },
+        "codeActionsOnSave": {
+          "source.fixAll.eslint": true
+        }
+      }
     }
   },
   "file_scan_inclusions": [".env*"]
