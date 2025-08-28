@@ -25,7 +25,7 @@
     "bindings": {
       "cmd-ctrl-g": "search::SelectPreviousMatch",
       "alt-ctrl-c": "search::ToggleCaseSensitive",
-      "alt-ctrl-w": "search::ToggleWholeWord"
+      "alt-ctrl-x": "search::ToggleWholeWord"
     }
   },
   {
