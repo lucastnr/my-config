@@ -77,7 +77,7 @@ alias p='pnpm'
 alias gcpp='gcloud config configurations activate skip-prod'
 alias gcps='gcloud config configurations activate skip-stg'
 alias ghpr='gh pr create --web --assignee @me'
-alias gcm='cat ~/.claude/commands/gen-commit-msg.md | claude'
+alias gcm='cat ~/.claude/commands/gen-commit-msg.md | claude -p'
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
