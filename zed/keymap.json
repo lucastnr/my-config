@@ -23,7 +23,9 @@
   {
     "context": "Pane",
     "bindings": {
-      "cmd-ctrl-g": "search::SelectPreviousMatch"
+      "cmd-ctrl-g": "search::SelectPreviousMatch",
+      "alt-ctrl-c": "search::ToggleCaseSensitive",
+      "alt-ctrl-w": "search::ToggleWholeWord"
     }
   },
   {
