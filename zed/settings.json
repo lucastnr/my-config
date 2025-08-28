@@ -12,13 +12,17 @@
     "default_model": {
       "provider": "copilot_chat",
       "model": "gpt-4.1"
-    },
+    }
   },
   "features": {
     "edit_prediction_provider": "copilot"
   },
   "base_keymap": "VSCode",
-  "theme": "One Black",
+  "theme": {
+    "mode": "system",
+    "dark": "One Black",
+    "light": "One Light"
+  },
   "experimental.theme_overrides": {
     "editor.background": "#00000",
     "syntax": {
