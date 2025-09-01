@@ -70,5 +70,5 @@
       }
     }
   },
-  "file_scan_inclusions": ["*/apps/*/*.env*"]
+  "file_scan_inclusions": ["apps/*/*.env*", "*.env*"]
 }
