@@ -70,5 +70,5 @@
       }
     }
   },
-  "file_scan_inclusions": [".env*"]
+  "file_scan_inclusions": ["*/.env*"]
 }
