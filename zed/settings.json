@@ -85,6 +85,7 @@
     // End Zed Defaults
     "**/.yarn",
     "**/.nx",
+    "**/.idea",
     "**/.github",
     "**/android/app/build",
     "**/ios/Pods",
