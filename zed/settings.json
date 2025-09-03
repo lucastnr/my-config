@@ -75,7 +75,6 @@
     // Start Zed Defaults
     "**/.git",
     "**/.svn",
-    "**/.yarn",
     "**/.hg",
     "**/.jj",
     "**/CVS",
@@ -84,6 +83,7 @@
     "**/.classpath",
     "**/.settings",
     // End Zed Defaults
+    "**/.yarn",
     "**/.github",
     "**/android/app/build",
     "**/ios/Pods",
