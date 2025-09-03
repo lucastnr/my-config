@@ -85,6 +85,7 @@
     "**/android/app/build",
     "**/.cursor",
     "**/.next",
+    "**/.vercel",
     "**/dist"
   ]
 }
