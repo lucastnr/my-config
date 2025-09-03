@@ -72,7 +72,6 @@
   },
   "file_scan_inclusions": ["apps/web/.env.*", "apps/bifrost/.env*", ".env*"],
   "file_scan_exclusions": [
-    "**/.github",
     "**/.git",
     "**/.svn",
     "**/.hg",
@@ -82,6 +81,7 @@
     "**/Thumbs.db",
     "**/.classpath",
     "**/.settings",
+    "**/.github",
     "**/android/app/build",
     "**/.cursor",
     "**/.next",
