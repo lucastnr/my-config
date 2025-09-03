@@ -70,5 +70,17 @@
       }
     }
   },
-  "file_scan_inclusions": ["apps/web/.env.*", "apps/bifrost/.env*", ".env*"]
+  "file_scan_inclusions": ["apps/web/.env.*", "apps/bifrost/.env*", ".env*"],
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/.jj",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+    "**/android/build"
+  ]
 }
