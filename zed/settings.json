@@ -81,6 +81,7 @@
     "**/Thumbs.db",
     "**/.classpath",
     "**/.settings",
-    "**/android/app/build"
+    "**/android/app/build",
+    ".cursor"
   ]
 }
