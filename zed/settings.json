@@ -82,6 +82,7 @@
     "**/.classpath",
     "**/.settings",
     "**/android/app/build",
-    ".cursor"
+    "**/.cursor",
+    "**/.next"
   ]
 }
