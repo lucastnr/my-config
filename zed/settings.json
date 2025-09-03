@@ -84,6 +84,7 @@
     "**/.settings",
     "**/android/app/build",
     "**/.cursor",
-    "**/.next"
+    "**/.next",
+    "**/dist"
   ]
 }
