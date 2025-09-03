@@ -75,6 +75,7 @@
     // Start Zed Defaults
     "**/.git",
     "**/.svn",
+    "**/.yarn",
     "**/.hg",
     "**/.jj",
     "**/CVS",
