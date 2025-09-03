@@ -72,6 +72,7 @@
   },
   "file_scan_inclusions": ["apps/web/.env.*", "apps/bifrost/.env*", ".env*"],
   "file_scan_exclusions": [
+    "**/.github",
     "**/.git",
     "**/.svn",
     "**/.hg",
