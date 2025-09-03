@@ -85,7 +85,7 @@
     // End Zed Defaults
     "**/.github",
     "**/android/app/build",
-    "**/ios/Pods",
+    "**/ios/app/build",
     "**/.cursor",
     "**/.next",
     "**/.vercel",
