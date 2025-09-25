@@ -103,6 +103,21 @@
       "command": "npx",
       "args": ["mcp-remote", "https://mcp.atlassian.com/v1/sse"],
       "source": "custom"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp-server"],
+      "source": "custom"
+    },
+    "fetch": {
+      "command": "npx",
+      "args": ["-y", "@kazuph/mcp-fetch"],
+      "source": "custom"
+    },
+    "browser-tools": {
+      "command": "npx",
+      "args": ["-y", "@agentdeskai/browser-tools-mcp"],
+      "source": "custom"
     }
   }
 }
