@@ -17,7 +17,7 @@
       "provider": "copilot_chat",
       "model": "gpt-4.1"
     },
-    "dock": "bottom"
+    "dock": "left"
   },
   "features": {
     "edit_prediction_provider": "copilot"
