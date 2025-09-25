@@ -97,5 +97,11 @@
     "**/.next",
     "**/.vercel",
     "**/dist"
-  ]
+  ],
+  "context_servers": {
+    "atlassian-mcp-server": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://mcp.atlassian.com/v1/sse"]
+    }
+  }
 }
