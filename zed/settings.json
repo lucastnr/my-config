@@ -1,5 +1,6 @@
 {
   "agent": {
+    "single_file_review": false,
     "inline_assistant_model": {
       "provider": "copilot_chat",
       "model": "gpt-4.1"
