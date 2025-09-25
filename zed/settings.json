@@ -99,7 +99,7 @@
     "**/dist"
   ],
   "context_servers": {
-    "atlassian-mcp-server": {
+    "atlassian": {
       "command": "npx",
       "args": ["mcp-remote", "https://mcp.atlassian.com/v1/sse"],
       "source": "custom"
