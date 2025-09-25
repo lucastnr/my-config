@@ -120,6 +120,16 @@
       "command": "npx",
       "args": ["-y", "@agentdeskai/browser-tools-mcp"],
       "source": "custom"
+    },
+    "figma": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "figma-developer-mcp",
+        "--figma-api-key=YOUR-KEY",
+        "--stdio"
+      ],
+      "source": "custom"
     }
   }
 }
