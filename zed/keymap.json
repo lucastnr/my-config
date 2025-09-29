@@ -37,5 +37,11 @@
       ],
       "alt-l": ["workspace::SendKeystrokes", "enter * space"]
     }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-shift-b": "workspace::ToggleLeftDock"
+    }
   }
 ]
