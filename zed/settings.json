@@ -43,6 +43,9 @@
   "git_panel": {
     "dock": "right"
   },
+  "outline_panel": {
+    "dock": "right"
+  },
   "auto_update": true,
   "soft_wrap": "editor_width",
   "ui_font_size": 20,
