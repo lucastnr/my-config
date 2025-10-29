@@ -43,5 +43,11 @@
     "bindings": {
       "cmd-r": null
     }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "alt-cmd-r": null
+    }
   }
 ]
