@@ -4,7 +4,13 @@
       "host": "raspberrypi.local",
       "username": "pi",
       "args": [],
-      "projects": []
+      "projects": [
+        {
+          "paths": [
+            "/home/pi"
+          ]
+        }
+      ]
     }
   ],
   "agent": {
