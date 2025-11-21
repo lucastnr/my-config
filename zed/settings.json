@@ -1,4 +1,12 @@
 {
+  "ssh_connections": [
+    {
+      "host": "raspberrypi.local",
+      "username": "pi",
+      "args": [],
+      "projects": []
+    }
+  ],
   "agent": {
     "single_file_review": false,
     "inline_assistant_model": {
