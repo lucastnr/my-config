@@ -1,5 +1,5 @@
 {
-  "vim_mode": true,
+  "vim_mode": false,
   "ssh_connections": [
     {
       "host": "raspberrypi.local",
