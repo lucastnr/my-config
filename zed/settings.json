@@ -1,13 +1,6 @@
 {
   "vim_mode": false,
-  "ssh_connections": [
-    {
-      "host": "raspberrypi.local",
-      "username": "pi",
-      "args": [],
-      "projects": []
-    }
-  ],
+  "ssh_connections": [],
   "agent": {
     "single_file_review": false,
     "inline_assistant_model": {
