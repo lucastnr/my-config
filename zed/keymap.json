@@ -15,7 +15,7 @@
       "cmd-shift-c": [
         "task::Spawn",
         {
-          "task_name": "Open warp"
+          "task_name": "Open external terminal"
         }
       ]
     }
