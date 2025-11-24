@@ -12,6 +12,11 @@
         },
         {
           "paths": [
+            "/etc/samba"
+          ]
+        },
+        {
+          "paths": [
             "/home/pi"
           ]
         }
