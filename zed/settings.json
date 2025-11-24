@@ -7,19 +7,13 @@
       "args": [],
       "projects": [
         {
-          "paths": [
-            "/etc"
-          ]
+          "paths": ["/etc"]
         },
         {
-          "paths": [
-            "/etc/samba"
-          ]
+          "paths": ["/etc/samba"]
         },
         {
-          "paths": [
-            "/home/pi"
-          ]
+          "paths": ["/home/pi"]
         }
       ]
     }
