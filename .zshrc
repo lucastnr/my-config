@@ -88,5 +88,3 @@ export NVM_DIR="$HOME/.nvm"
 
 # Used by Claude Code
 export EDITOR=zed
-
-LC_ALL=C.UTF-8 ssh remote
