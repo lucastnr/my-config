@@ -76,7 +76,6 @@ alias p='pnpm'
 alias ghpr='gh pr create --web --assignee @me'
 alias gcm='cat ~/.claude/commands/gen-commit-msg.md | claude -p --dangerously-skip-permissions --model haiku'
 alias yt-mp3='yt-dlp -x --audio-format mp3 -o "~/Downloads/%(title)s.%(ext)s"'
-alias rasp='ssh pi@192.168.0.158'
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
