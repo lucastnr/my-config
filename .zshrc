@@ -39,6 +39,11 @@ plugins=(git firebase zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 source $HOME/.secrets.sh
 
+# add alt + arrows to navigate words
+bindkey -e
+bindkey '^[[1;9C' forward-word
+bindkey '^[[1;9D' backward-word
+
 FIREBASE_ZSH_ICON=true
 PROMPT='%{$fg[cyan]%}%1d%{$reset_color%} $(firebase_project) $(git_prompt_info)%(!.#.~) '
 
