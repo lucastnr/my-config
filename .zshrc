@@ -34,7 +34,7 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # This will show up for each command when running the 'history' command
 HIST_STAMPS="yyyy-mm-dd"
 
-plugins=(git firebase zsh-autosuggestions zsh-syntax-highlighting aliases docker gh)
+plugins=(git firebase zsh-autosuggestions zsh-syntax-highlighting aliases docker gh macos)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.secrets.sh
