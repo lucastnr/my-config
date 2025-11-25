@@ -44,6 +44,7 @@ plugins=(
     gh
     macos
     nvm
+    you-should-use
 )
 
 source $ZSH/oh-my-zsh.sh
