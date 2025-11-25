@@ -45,6 +45,7 @@ plugins=(
     macos
     nvm
     you-should-use
+    zsh-bat
 )
 
 source $ZSH/oh-my-zsh.sh
