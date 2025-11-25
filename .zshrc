@@ -71,11 +71,8 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17) # Java Version
 
 # aliases
 alias r='source ~/.zshrc'
-alias vpr='gh pr create --base=staging --repo=yogov/skip-valhalla'
 alias search_alias='alias | grep'
 alias p='pnpm'
-alias gcpp='gcloud config configurations activate skip-prod'
-alias gcps='gcloud config configurations activate skip-stg'
 alias ghpr='gh pr create --web --assignee @me'
 alias gcm='cat ~/.claude/commands/gen-commit-msg.md | claude -p --dangerously-skip-permissions --model haiku'
 alias yt-mp3='yt-dlp -x --audio-format mp3 -o "~/Downloads/%(title)s.%(ext)s"'
