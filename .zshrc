@@ -89,6 +89,7 @@ alias ghpr='gh pr create --web --assignee @me'
 alias gcm='cat ~/.claude/commands/gen-commit-msg.md | claude -p --dangerously-skip-permissions --model haiku'
 alias yt-mp3='yt-dlp -x --audio-format mp3 -o "~/Downloads/%(title)s.%(ext)s"'
 alias openzs='nvim ~/.zshrc'
+alias gprv='gh pr view --web'
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
