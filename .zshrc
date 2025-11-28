@@ -88,7 +88,7 @@ alias p='pnpm'
 alias ghpr='gh pr create --web --assignee @me'
 alias gcm='cat ~/.claude/commands/gen-commit-msg.md | claude -p --dangerously-skip-permissions --model haiku'
 alias yt-mp3='yt-dlp -x --audio-format mp3 -o "~/Downloads/%(title)s.%(ext)s"'
-alias openzs='nvim ~/.zshrc'
+alias editzs='nvim ~/.zshrc'
 alias ghprv='gh pr view --web'
 
 # nvm
@@ -99,3 +99,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Used by Claude Code
 export EDITOR=zed
+
+
+# I hate the MERGE_MSG file
+export GIT_MERGE_AUTOEDIT=no
