@@ -53,6 +53,7 @@ source $HOME/.secrets.sh
 
 TRAPINT() {
   tput cnorm
+  return $(( 128 + $1 ))
 }
 
 FIREBASE_ZSH_ICON=true
