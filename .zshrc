@@ -51,6 +51,10 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source $HOME/.secrets.sh
 
+TRAPINT() {
+  tput cnorm
+}
+
 FIREBASE_ZSH_ICON=true
 PROMPT='%F{cyan}%1d%f $(firebase_project) $(git_prompt_info)%(!.#.~) '
 
