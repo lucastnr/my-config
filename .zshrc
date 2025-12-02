@@ -90,6 +90,7 @@ alias gcm='cat ~/.claude/commands/gen-commit-msg.md | claude -p --dangerously-sk
 alias yt-mp3='yt-dlp -x --audio-format mp3 -o "~/Downloads/%(title)s.%(ext)s"'
 alias editzs='nvim ~/.zshrc'
 alias ghprv='gh pr view --web'
+alias rc='tput cnorm'
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
@@ -104,4 +105,3 @@ export EDITOR=zed
 # I hate the MERGE_MSG file
 export GIT_MERGE_AUTOEDIT=no
 # Alias for resetting cursor visibility
-alias rc='tput cnorm'
