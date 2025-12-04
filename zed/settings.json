@@ -108,23 +108,19 @@
   "context_servers": {
     "atlassian": {
       "command": "npx",
-      "args": ["mcp-remote", "https://mcp.atlassian.com/v1/sse"],
-      "source": "custom"
+      "args": ["mcp-remote", "https://mcp.atlassian.com/v1/sse"]
     },
     "playwright": {
       "command": "npx",
-      "args": ["-y", "@playwright/mcp-server"],
-      "source": "custom"
+      "args": ["-y", "@playwright/mcp-server"]
     },
     "fetch": {
       "command": "npx",
-      "args": ["-y", "@kazuph/mcp-fetch"],
-      "source": "custom"
+      "args": ["-y", "@kazuph/mcp-fetch"]
     },
     "browser-tools": {
       "command": "npx",
-      "args": ["-y", "@agentdeskai/browser-tools-mcp"],
-      "source": "custom"
+      "args": ["-y", "@agentdeskai/browser-tools-mcp"]
     },
     "figma": {
       "command": "npx",
@@ -133,8 +129,7 @@
         "figma-developer-mcp",
         "--figma-api-key=YOUR-KEY",
         "--stdio"
-      ],
-      "source": "custom"
+      ]
     }
   }
 }
