@@ -1,5 +1,5 @@
 {
-  "vim_mode": false,
+  "vim_mode": true,
   "ssh_connections": [],
   "agent": {
     "single_file_review": false,
