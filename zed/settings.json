@@ -23,7 +23,7 @@
     "dock": null
   },
   "features": {
-    "edit_prediction_provider": "copilot"
+    "edit_prediction_provider": "none"
   },
   "base_keymap": "VSCode",
   "theme": {
