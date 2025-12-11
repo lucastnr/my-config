@@ -106,10 +106,10 @@
     "**/dist"
   ],
   "context_servers": {
-    "atlassian": {
-      "command": "npx",
-      "args": ["mcp-remote", "https://mcp.atlassian.com/v1/sse"]
-    },
+    // "atlassian": {
+    //   "command": "npx",
+    //   "args": ["mcp-remote", "https://mcp.atlassian.com/v1/sse"]
+    // },
     "playwright": {
       "command": "npx",
       "args": ["-y", "@playwright/mcp-server"]
