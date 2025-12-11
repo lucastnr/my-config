@@ -121,15 +121,15 @@
     "browser-tools": {
       "command": "npx",
       "args": ["-y", "@agentdeskai/browser-tools-mcp"]
-    },
-    "figma": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "figma-developer-mcp",
-        "--figma-api-key=YOUR-KEY",
-        "--stdio"
-      ]
     }
+    // "figma": {
+    //   "command": "npx",
+    //   "args": [
+    //     "-y",
+    //     "figma-developer-mcp",
+    //     "--figma-api-key=YOUR-KEY",
+    //     "--stdio"
+    //   ]
+    // }
   }
 }
