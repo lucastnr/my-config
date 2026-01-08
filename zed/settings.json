@@ -97,7 +97,6 @@
     "**/.yarn",
     "**/.nx",
     "**/.idea",
-    "**/.github",
     "**/android/app/build",
     "**/ios/Pods",
     "**/.cursor",
