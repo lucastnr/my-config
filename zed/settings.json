@@ -5,48 +5,49 @@
     "single_file_review": false,
     "inline_assistant_model": {
       "provider": "copilot_chat",
-      "model": "gpt-4.1"
+      "model": "gpt-4.1",
     },
     "profiles": {
       "everything": {
         "name": "Everything",
         "tools": {},
         "enable_all_context_servers": false,
-        "context_servers": {}
-      }
+        "context_servers": {},
+      },
     },
     "default_profile": "write",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4"
+      "model": "claude-sonnet-4",
     },
-    "dock": null
+    "dock": null,
   },
   "features": {
-    "edit_prediction_provider": "copilot"
+    "edit_prediction_provider": "copilot",
   },
   "base_keymap": "VSCode",
   "theme": {
     "mode": "system",
     "dark": "One Black",
-    "light": "One Light"
+    "light": "One Light",
   },
   "experimental.theme_overrides": {
     "editor.background": "#00000",
     "syntax": {
       "comment": {
-        "color": "#878e98"
-      }
-    }
+        "color": "#878e98",
+      },
+    },
   },
   "project_panel": {
-    "dock": "right"
+    "dock": "right",
+    "hide_gitignore": false,
   },
   "git_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "outline_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "auto_update": true,
   "soft_wrap": "editor_width",
@@ -55,19 +56,19 @@
   "format_on_save": "on",
   "formatter": "prettier",
   "file_types": {
-    "HTML": ["svg"]
+    "HTML": ["svg"],
   },
   "languages": {
     "TypeScript": {
       "code_actions_on_format": {
-        "source.organizeImports": true
-      }
+        "source.organizeImports": true,
+      },
     },
     "TSX": {
       "code_actions_on_format": {
-        "source.organizeImports": true
-      }
-    }
+        "source.organizeImports": true,
+      },
+    },
   },
   "lsp": {
     "tailwindcss-language-server": {
@@ -75,11 +76,11 @@
         "experimental": {
           "classRegex": [
             ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-            ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-          ]
-        }
-      }
-    }
+            ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+          ],
+        },
+      },
+    },
   },
   "file_scan_inclusions": ["apps/web/.env*", "apps/bifrost/.env*", ".env*"],
   "file_scan_exclusions": [
@@ -103,7 +104,7 @@
     "**/.cursor",
     "**/.next",
     "**/.vercel",
-    "**/dist"
+    "**/dist",
   ],
   "context_servers": {
     // "atlassian": {
@@ -112,16 +113,16 @@
     // },
     "playwright": {
       "command": "npx",
-      "args": ["-y", "@playwright/mcp-server"]
+      "args": ["-y", "@playwright/mcp-server"],
     },
     "fetch": {
       "command": "npx",
-      "args": ["-y", "@kazuph/mcp-fetch"]
+      "args": ["-y", "@kazuph/mcp-fetch"],
     },
     "browser-tools": {
       "command": "npx",
-      "args": ["-y", "@agentdeskai/browser-tools-mcp"]
-    }
+      "args": ["-y", "@agentdeskai/browser-tools-mcp"],
+    },
     // "figma": {
     //   "command": "npx",
     //   "args": [
@@ -131,5 +132,5 @@
     //     "--stdio"
     //   ]
     // }
-  }
+  },
 }
