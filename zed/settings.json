@@ -42,6 +42,7 @@
   "project_panel": {
     "dock": "right",
     "hide_gitignore": false,
+    "hide_hidden": false,
   },
   "git_panel": {
     "dock": "right",
