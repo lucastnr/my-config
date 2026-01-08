@@ -84,7 +84,7 @@
   "file_scan_inclusions": ["apps/web/.env*", "apps/bifrost/.env*", ".env*"],
   "file_scan_exclusions": [
     // Start Zed Defaults
-    // "**/.git",
+    "**/.git",
     "**/.svn",
     "**/.hg",
     "**/.jj",
