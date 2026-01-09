@@ -115,10 +115,6 @@
       "command": "npx",
       "args": ["-y", "@agentdeskai/browser-tools-mcp"],
     },
-    "image": {
-      "command": "uv",
-      "args": ["--directory", "/Users/lucas/dev/mcp-images", "run", "mcp_image.py"],
-    },
     // "figma": {
     //   "command": "npx",
     //   "args": [
