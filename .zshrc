@@ -110,3 +110,5 @@ export EDITOR=zed
 # I hate the MERGE_MSG file
 export GIT_MERGE_AUTOEDIT=no
 # Alias for resetting cursor visibility
+
+. "$HOME/.local/bin/env"
