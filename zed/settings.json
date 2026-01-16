@@ -7,9 +7,7 @@
       "provider": "copilot_chat",
       "model": "gpt-4.1",
     },
-    "profiles": {
-      },
-    "default_profile": "write",
+    "profiles": {},
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4",
