@@ -1,4 +1,13 @@
 {
+  "agent_servers": {
+    "claude": {
+      "favorite_models": [
+        "sonnet"
+      ],
+      "default_config_options": {},
+      "favorite_config_option_values": {}
+    }
+  },
   "vim_mode": false,
   "ssh_connections": [],
   "agent": {
