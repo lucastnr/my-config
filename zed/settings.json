@@ -1,4 +1,5 @@
 {
+  "show_wrap_guides": true,
   "agent_servers": {
     "claude": {
       "default_model": "sonnet",
