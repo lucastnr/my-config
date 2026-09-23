@@ -2,8 +2,7 @@
 
 cd `dirname "$0"`
 
-cp $HOME/.zshrc ../
+cp "$HOME/Library/Application Support/Code/User/settings.json" ../vscode
+cp "$HOME/Library/Application Support/Code/User/keybindings.json" ../vscode
 
-git add --all
-git commit -m "Sync vscode configs"
-git push
+git add --all && git commit -m "Sync vscode configs" && git push

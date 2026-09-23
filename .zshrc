@@ -96,6 +96,9 @@ alias yt-mp3='yt-dlp -x --audio-format mp3 -o "~/Downloads/%(title)s.%(ext)s"'
 alias editzs='nvim ~/.zshrc'
 alias ghprv='gh pr view --web'
 alias editnvim='cd ~/.config/nvim && nvim .'
+alias c='claude'
+alias ynsw='yarn nx serve web'
+alias ynswp='env-cmd -f ./apps/web/.env.production yarn nx serve web'
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
@@ -112,3 +115,9 @@ export GIT_MERGE_AUTOEDIT=no
 # Alias for resetting cursor visibility
 
 . "$HOME/.local/bin/env"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Keep MacBook awake with lid closed
+alias lidawake='sudo pmset -c sleep 0; sudo pmset -c disablesleep 1'
+alias lidsleep='sudo pmset -c sleep 5; sudo pmset -c disablesleep 0'
