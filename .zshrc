@@ -118,6 +118,3 @@ export GIT_MERGE_AUTOEDIT=no
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-# Keep MacBook awake with lid closed
-alias lidawake='sudo pmset -c sleep 0; sudo pmset -c disablesleep 1'
-alias lidsleep='sudo pmset -c sleep 5; sudo pmset -c disablesleep 0'
