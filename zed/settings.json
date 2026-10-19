@@ -79,7 +79,11 @@
   "ui_font_size": 20,
   "buffer_font_size": 16,
   "format_on_save": "on",
-  "formatter": "prettier",
+  "formatter": {
+    "language_server": {
+      "name": "biome",
+    },
+  },
   "file_types": {
     "HTML": ["svg"],
   },
