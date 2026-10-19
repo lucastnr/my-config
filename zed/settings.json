@@ -1,29 +1,55 @@
 {
+  "cli_default_open_behavior": "existing_window",
+  "diff_view_style": "unified",
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "edit_predictions": {
+    "provider": "zed",
+  },
   "show_wrap_guides": true,
   "agent_servers": {
-    "claude": {
-      "default_model": "sonnet",
-      "default_config_options": {},
-      "favorite_config_option_values": {},
+    "claude-acp": {
+      "default_config_options": {
+        "model": "default",
+        "mode": "plan",
+        "effort": "high",
+      },
+      "favorite_config_option_values": {
+        "model": ["opus"],
+      },
+      "type": "registry",
     },
   },
   "vim_mode": false,
-  "ssh_connections": [],
+  "ssh_connections": [
+    {
+      "host": "192.168.0.158",
+      "username": "pi",
+      "args": [],
+      "projects": [
+        {
+          "paths": ["/home/pi/cj-bot-js"],
+        },
+      ],
+    },
+  ],
   "agent": {
     "single_file_review": false,
     "inline_assistant_model": {
       "provider": "copilot_chat",
       "model": "gpt-4.1",
     },
+    "commit_message_model": {
+      "provider": "copilot_chat",
+      "model": "claude-opus-4.5",
+    },
     "profiles": {},
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4",
     },
-    "dock": null,
-  },
-  "features": {
-    "edit_prediction_provider": "copilot",
+    "dock": "right",
   },
   "base_keymap": "VSCode",
   "theme": {
@@ -68,6 +94,9 @@
         "source.organizeImports": true,
       },
     },
+    "Python": {
+      "language_servers": ["ty"],
+    },
   },
   "lsp": {
     "tailwindcss-language-server": {
@@ -77,6 +106,15 @@
             ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
             ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
           ],
+        },
+      },
+    },
+    "ty": {
+      "settings": {
+        "configuration": {
+          "environment": {
+            "python": "~/.pyenv",
+          },
         },
       },
     },
@@ -100,6 +138,7 @@
     "**/android/app/build",
     "**/ios/Pods",
     "**/.cursor",
+    "**/.claude/worktrees",
     "**/.next",
     "**/.vercel",
     "**/dist",
@@ -109,6 +148,11 @@
     //   "command": "npx",
     //   "args": ["mcp-remote", "https://mcp.atlassian.com/v1/sse"]
     // },
+    "browser-tools-context-server": {
+      "enabled": true,
+      "remote": false,
+      "settings": {},
+    },
     "playwright": {
       "command": "npx",
       "args": ["-y", "@playwright/mcp-server"],
