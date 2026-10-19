@@ -95,7 +95,7 @@
 		},
 		"TSX": {
 			"code_actions_on_format": {
-				"source.organizeImports.biome": false
+				"source.organizeImports.biome": true
 			}
 		},
 		"Python": {
