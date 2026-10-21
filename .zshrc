@@ -97,8 +97,7 @@ alias editzs='nvim ~/.zshrc'
 alias ghprv='gh pr view --web'
 alias editnvim='cd ~/.config/nvim && nvim .'
 alias c='claude'
-alias pnsw='pnpm nx serve web'
-alias pnswp='env-cmd -f ./apps/web/.env.production pnpm nx serve web'
+alias sw='pnpm nx serve web'
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
