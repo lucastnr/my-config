@@ -117,3 +117,5 @@ export GIT_MERGE_AUTOEDIT=no
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+
+if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi
